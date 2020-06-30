@@ -1,4 +1,16 @@
 - commits:
+    - subject: 'ssh: fix "Cannot find module ''lodash/reduce''" standalone zip package'
+      hash: 7e7717b7f77bac2ae798e4510e7923dbe088c841
+      body: ''
+      footer:
+        Resolves: '#1896'
+        resolves: '#1896'
+        Change-type: patch
+        change-type: patch
+      author: Paulo Castro
+  version: 12.3.4
+  date: 2020-06-30T15:08:23.025Z
+- commits:
     - subject: Generate/include an oclif.manifest.json when packaging
       hash: d0a4ff0d6b05a328be76ec593abe1d4b2e3c5d50
       body: |
