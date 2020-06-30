@@ -1,4 +1,14 @@
 - commits:
+    - subject: Update @types/stream-to-promise
+      hash: 0a5844adf86f722f91b14abf0b6c7312a95d0092
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Pagan Gazzard
+  version: 12.3.7
+  date: 2020-06-30T23:58:31.007Z
+- commits:
     - subject: Switch from Bluebird.join to native version
       hash: 303c3af06145262c56d6534b9b5af0ea8436c5d8
       body: ''
