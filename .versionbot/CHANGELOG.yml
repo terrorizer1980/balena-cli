@@ -1,4 +1,23 @@
 - commits:
+    - subject: Update INSTALL.md re new minimum Node.js version of 10.20.0
+      hash: ecc25a9c9ebdcf15ce5b40cdb0dbe9936fa69cc7
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Paulo Castro
+      nested: []
+    - subject: 'Update net-keepalive to 1.3.1, adding support for nodejs 14'
+      hash: 5ad095fb3797b74891a03e779badd53fa6c6da91
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Pagan Gazzard
+      nested: []
+  version: 12.8.0
+  date: 2020-07-13T12:30:26.442Z
+- commits:
     - subject: 'Convert `local configure` to oclif, typescript'
       hash: 4f831ef443076ab99f51ea1b124f57ec45315a29
       body: ''
