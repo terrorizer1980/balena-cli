@@ -889,8 +889,8 @@ service name
 
 ## env rm ID
 
-Remove a configuration or environment variable from an application, device
-or service, as selected by command-line options.
+Remove a configuration or environment variable from one or more applications, devices
+or services, as selected by command-line options.
 
 Variables are selected by their database ID (as reported by the 'balena envs'
 command) and one of six database "resource types":
@@ -923,6 +923,7 @@ The --yes option disables this behavior.
 Examples:
 
 	$ balena env rm 123123
+	$ balena env rm 123123,234234
 	$ balena env rm 234234 --yes
 	$ balena env rm 345345 --config
 	$ balena env rm 456456 --service

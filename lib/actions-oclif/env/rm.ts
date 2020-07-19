@@ -33,15 +33,15 @@ interface FlagsDef {
 }
 
 interface ArgsDef {
-	id: number;
+	id: string;
 }
 
 export default class EnvRmCmd extends Command {
 	public static description = stripIndent`
-		Remove a config or env var from an application, device or service.
+		Remove a config or env var from one or more applications, devices or services.
 
-		Remove a configuration or environment variable from an application, device
-		or service, as selected by command-line options.
+		Remove a configuration or environment variable from one or more applications, devices
+		or services, as selected by command-line options.
 
 		${ec.rmRenameHelp.split('\n').join('\n\t\t')}
 
@@ -50,6 +50,7 @@ export default class EnvRmCmd extends Command {
 `;
 	public static examples = [
 		'$ balena env rm 123123',
+		'$ balena env rm 123123,234234',
 		'$ balena env rm 234234 --yes',
 		'$ balena env rm 345345 --config',
 		'$ balena env rm 456456 --service',
@@ -91,17 +92,28 @@ export default class EnvRmCmd extends Command {
 		await Command.checkLoggedIn();
 
 		const { confirm } = await import('../../utils/patterns');
+		const ids = params.id.toString().split(',');
 		await confirm(
 			opt.yes || false,
-			'Are you sure you want to delete the environment variable?',
+			ids.length > 1
+				? `Are you sure you want to delete ${ids.length} environment variables?`
+				: `Are you sure you want to delete environment variable ${ids[0]}?`,
 			undefined,
 			true,
 		);
 
 		const balena = getBalenaSdk();
-		await balena.pine.delete({
-			resource: ec.getVarResourceName(opt.config, opt.device, opt.service),
-			id: params.id,
-		});
+		for (const id of ids) {
+			try {
+				await balena.pine.delete({
+					resource: ec.getVarResourceName(opt.config, opt.device, opt.service),
+					id: parseInt(id, 10),
+				});
+			} catch (err) {
+				console.info(`${err.message}, id: ${id}`);
+				process.exitCode = 1;
+				continue;
+			}
+		}
 	}
 }
