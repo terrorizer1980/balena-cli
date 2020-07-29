@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'env rm: Add ability to remove multiple env vars with one command'
+      hash: b761ebb559c69a380dcb9c10ca9f2f12838a4946
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Nick Neisen
+      nested: []
+  version: 12.10.0
+  date: 2020-07-29T15:48:41.031Z
+- commits:
     - subject: 'devices supported: Rename ''BETA'' to ''NEW'' in verbose output'
       hash: 7eb398c6ef6c50c98189aa17e0156fa4f67d0bc6
       body: ''
