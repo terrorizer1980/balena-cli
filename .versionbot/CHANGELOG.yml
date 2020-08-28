@@ -1,4 +1,15 @@
 - commits:
+    - subject: '`os versions`: Add balenaOS ESR releases to the list'
+      hash: 32870dc92708175aa28db1f02808991054359caa
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Paulo Castro
+      nested: []
+  version: 12.15.0
+  date: 2020-08-28T00:20:46.717Z
+- commits:
     - subject: Update to typescript 4.0
       hash: 787966a0b61abf3d94a16ca407b42bf05abfbae2
       body: ''
