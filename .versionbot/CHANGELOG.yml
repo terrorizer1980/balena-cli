@@ -1,4 +1,18 @@
 - commits:
+    - subject: Drop no longer used pkg dependency config
+      hash: 942d8388a50a8b94fb55e8887783cca0b72cb580
+      body: |
+        There is no longer a balena-pine folder in that path.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+        signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+      author: Thodoris Greasidis
+      nested: []
+  version: 12.17.1
+  date: 2020-09-07T13:32:39.755Z
+- commits:
     - subject: 'Display command suggestions, when command not recognized'
       hash: 273ea5ce4d5f169486f1e68be1157d7091338798
       body: ''
