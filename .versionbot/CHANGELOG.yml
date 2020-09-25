@@ -1,4 +1,19 @@
 - commits:
+    - subject: Fix issue with subclassed errors and instanceof
+      hash: ed17f663511a052721e10ffaf0e0b9b4959f60e2
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Resolves: '#2035'
+        resolves: '#2035'
+        Signed-off-by: Scott Lowe <scott@balena.io>
+        signed-off-by: Scott Lowe <scott@balena.io>
+      author: Scott Lowe
+      nested: []
+  version: 12.22.3
+  date: 2020-09-25T13:58:01.425Z
+- commits:
     - subject: 'deploy: Fix unexpected exit with "Everything is up to date"'
       hash: 889fafcffce017373d7b6896ce9fd0a18b6b55f2
       body: ''
