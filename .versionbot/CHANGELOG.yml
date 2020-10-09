@@ -1,4 +1,17 @@
 - commits:
+    - subject: Auto-generate command usage notes
+      hash: 54bccdd3323d2cbfe484dbfb82cbb119d78310e2
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Scott Lowe <scott@balena.io>
+        signed-off-by: Scott Lowe <scott@balena.io>
+      author: Scott Lowe
+      nested: []
+  version: 12.24.2
+  date: 2020-10-09T14:53:02.129Z
+- commits:
     - subject: 'login: sign up at the configured balena instance'
       hash: af70f16a9b8de7150bcdd8d76a89f72c59614526
       body: ''
