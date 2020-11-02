@@ -1,4 +1,17 @@
 - commits:
+    - subject: >-
+        device move: Add '-name', '-uuid' and '-id' application and device
+        options
+      hash: 02cb4c4af811668eded35388c819e7918e875246
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Paulo Castro
+      nested: []
+  version: 12.27.0
+  date: 2020-11-02T01:14:01.041Z
+- commits:
     - subject: 'devices: Fix "TypeError: Cannot read property ''slug'' of undefined"'
       hash: 9d177609f5adfa357363ba5356f51027a388f635
       body: ''
