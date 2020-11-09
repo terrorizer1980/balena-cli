@@ -6,7 +6,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## 12.27.2 - 2020-11-09
 
-* Modify `os download` help to mention dev images [Thomas Manning]
+* Patch oclif/dev-cli to fix permission issues [Scott Lowe]
 
 ## 12.27.1 - 2020-11-06
 
