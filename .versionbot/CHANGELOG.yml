@@ -1,4 +1,17 @@
 - commits:
+    - subject: Patch oclif/dev-cli to fix permission issues
+      hash: 0f1a884214bd3be2348ea4185cd3041d26ea02ed
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Scott Lowe <scott@balena.io>
+        signed-off-by: Scott Lowe <scott@balena.io>
+      author: Scott Lowe
+      nested: []
+  version: 12.27.2
+  date: 2020-11-09T13:58:51.525Z
+- commits:
     - subject: Improve application-identifier disambiguation
       hash: 46249e319ba3ee8aa1b951f5241dafa625175045
       body: ''
