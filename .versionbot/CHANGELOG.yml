@@ -1,4 +1,23 @@
 - commits:
+    - subject: Fix Windows installer build in new balena CI workers (qqjs patch)
+      hash: ae18df67106906f10b86878c047aa405d896bb25
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Paulo Castro
+      nested: []
+    - subject: Fix 'balena ssh' test cases when using the Windows built-in ssh tool
+      hash: 8101ab38a637997ef634f94e1138b1d381a0659c
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Paulo Castro
+      nested: []
+  version: 12.29.1
+  date: 2020-12-01T15:19:52.694Z
+- commits:
     - subject: 'scan: Print production devices'' info on scan'
       hash: 7d5a64f59a47c3a051fb2cbe9e45a71029cca694
       body: ''
