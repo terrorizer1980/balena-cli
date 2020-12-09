@@ -1,4 +1,17 @@
 - commits:
+    - subject: empty
+      hash: b897bf054b96bab61b388fd6014646ac48d16f88
+      body: ''
+      footer:
+        Changelog-entry: empty
+        changelog-entry: empty
+        Change-type: patch
+        change-type: patch
+      author: ab77
+      nested: []
+  version: 12.30.4
+  date: 2020-12-09T21:58:45.862Z
+- commits:
     - subject: 'errors: Add expected errors for device deactivation'
       hash: a19132d3bfe2e02456b4738fb16d4aa813fe6211
       body: ''
