@@ -1,4 +1,43 @@
 - commits:
+    - subject: >-
+        Livepush: Extend CTRL-C availability (don't ignore CTRL-C during image
+        build)
+      hash: c069344af9789817da0cfdcfecbacf5b64ed5551
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Paulo Castro
+      nested: []
+    - subject: 'Livepush, logs: Automatically reconnect on ''Connection to device lost'''
+      hash: a5e923b2650b4d8d0710c34399e25400e8028a3c
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Paulo Castro
+      nested: []
+    - subject: 'logs: Fix CTRL-C ignored on Windows (PowerShell, MSYS, Git for Windows)'
+      hash: 97dfa2fabcf420cf5dcc04569947b49d4d195cac
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Paulo Castro
+      nested: []
+    - subject: 'Livepush: Fix process not exiting on "Connection to device lost"'
+      hash: ae10d5d8e476dccc399d9056143b90c32805f82c
+      body: ''
+      footer:
+        Resolves: '#1828'
+        resolves: '#1828'
+        Change-type: patch
+        change-type: patch
+      author: Paulo Castro
+      nested: []
+  version: 12.31.0
+  date: 2020-12-09T05:57:22.596Z
+- commits:
     - subject: Removes hardcoded path
       hash: 0147e0e9922430857f361ee7b9d14fed366e5256
       body: ''
