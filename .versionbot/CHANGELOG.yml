@@ -1,4 +1,28 @@
 - commits:
+    - subject: 'prefix: Subject'
+      hash: 6651363b52a74b2ded6e5225479dfac4073550c1
+      body: |
+        Commit body
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Giovanni Garufi <giovanni@balena.io>
+        signed-off-by: Giovanni Garufi <giovanni@balena.io>
+      author: Giovanni Garufi
+      nested: []
+    - subject: Test
+      hash: 7a63732644e067fddd8520b9bf286907dc192c10
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Giovanni Garufi <giovanni@balena.io>
+        signed-off-by: Giovanni Garufi <giovanni@balena.io>
+      author: Giovanni Garufi
+      nested: []
+  version: 12.35.2
+  date: 2020-12-17T17:04:41.550Z
+- commits:
     - subject: 'Update commands ssh, tunnel to support orgs'
       hash: 9d2884aab7544d8b7330cdd6fa1a020344f6309c
       body: ''
