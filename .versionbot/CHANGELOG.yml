@@ -1,4 +1,19 @@
 - commits:
+    - subject: 'deploy: support passing in `release_version` as an arg'
+      hash: a388e587231cb795221215c4a484c6b7069116f2
+      body: ''
+      footer:
+        Depends-on: 'https://github.com/balena-io-modules/balena-release/pull/16'
+        depends-on: 'https://github.com/balena-io-modules/balena-release/pull/16'
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Matthew McGinn <matthew@balena.io>
+        signed-off-by: Matthew McGinn <matthew@balena.io>
+      author: Matthew McGinn
+      nested: []
+  version: 12.40.1
+  date: 2021-02-22T22:32:52.755Z
+- commits:
     - subject: Add support for docker-compose dev overlay in local pushes
       hash: f3d750a0247ae0f272392666d9d243ed65e8e4e6
       body: ''
