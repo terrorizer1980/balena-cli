@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'build, deploy: Add support for multi-architecture base images'
+      hash: 92f48aa2f3324a069ba361510605c6d5ba5eb033
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Paulo Castro
+      nested: []
+  version: 12.41.0
+  date: 2021-03-07T17:17:44.104Z
+- commits:
     - subject: 'build, deploy: Fix error handling when QEMU download fails'
       hash: bcea5193a1cffe00a062f35f2121db7dc6e4cbf5
       body: ''
