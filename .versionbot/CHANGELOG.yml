@@ -1,4 +1,15 @@
 - commits:
+    - subject: Nothing
+      hash: 916669ccdac628bb9908a8c899dbdaf7e5bba41a
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Alexis Svinartchouk
+      nested: []
+  version: 12.41.2
+  date: 2021-03-16T18:26:38.912Z
+- commits:
     - subject: 'docker: Fix path to init when workdir is changed'
       hash: 3cff091e3a4e24a2fea8d576691dcd7d7f0b6489
       body: ''
