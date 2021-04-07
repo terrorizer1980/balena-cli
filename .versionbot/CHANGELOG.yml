@@ -1,4 +1,61 @@
 - commits:
+    - subject: Fix type error and refactor mergeDevComposeOverlay
+      hash: 982c2e715d6e33f9145b0f26f64d5035aff5ecae
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Paulo Castro
+      nested: []
+    - subject: Also check docker-compose.dev.yml service names
+      hash: 9f3d52872670d1dfbf48e2e17fc87859a36860d1
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+    - subject: Harmonize --buildArg flag treatment between build/deploy/push commands
+      hash: f2173ce88ea23af743ed3d317343b326b57f9d3b
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Paulo Castro
+      nested: []
+    - subject: Add tests for `push --buildArgs` and refactor logic
+      hash: 02952a8369086fdf69c7604f751645784d6c8703
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Paulo Castro
+      nested: []
+    - subject: Various review fixes
+      hash: 155ac1dd4afcd266fda6c23218e4dc8980568a9e
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+    - subject: Add --buildArg support for push command
+      hash: dbe65e9b5af7e71e6624dae0fac48216c9781117
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 12.45.0
+  date: 2021-04-07T22:08:56.364Z
+- commits:
     - subject: Direct missing release installs to npm install method
       hash: 91fd515266785012e5797c20edb3360e3d30334b
       body: ''
