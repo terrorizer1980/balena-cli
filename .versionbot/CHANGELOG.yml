@@ -1,4 +1,17 @@
 - commits:
+    - subject: Fix forums support link in README.md
+      hash: 4557265fbb4148ed848281e988c51b67144135a6
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Scott Lowe <scott@balena.io>
+        signed-off-by: Scott Lowe <scott@balena.io>
+      author: Scott Lowe
+      nested: []
+  version: 12.44.12
+  date: 2021-04-21T13:53:54.309Z
+- commits:
     - subject: >-
         Add message regarding deprecation of --buildArg option in build/deploy
         commands
