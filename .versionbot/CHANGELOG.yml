@@ -1,4 +1,23 @@
 - commits:
+    - subject: Inspect CI
+      hash: fc88c7678b17f4289dcc738f1afba35553852a6a
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Paulo Castro
+      nested: []
+    - subject: Add caxa-based installer for Linux
+      hash: aeec52fb8f2ffc222cb090829de15f5927674b5b
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Paulo Castro
+      nested: []
+  version: 12.45.0
+  date: 2021-06-18T15:54:27.829Z
+- commits:
     - subject: 'devices supported: Use new DeviceType data model as source of truth'
       hash: a254e461186e4cfddcffd3285e9420451e31cb24
       body: ''
