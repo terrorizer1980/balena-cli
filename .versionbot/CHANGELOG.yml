@@ -1,4 +1,15 @@
 - commits:
+    - subject: Test CI
+      hash: 4feffdb9e498d856e5c2e36df528ef7dffc007e9
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Paulo Castro
+      nested: []
+  version: 12.44.24
+  date: 2021-07-05T14:10:12.706Z
+- commits:
     - subject: Delete CODEOWNERS
       hash: 2986e6cea3ab245c5546cc3da2c7c22fcf193e60
       body: ''
