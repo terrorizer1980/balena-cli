@@ -49,6 +49,7 @@ interface FlagsDef {
 	version?: string;
 	'system-connection': string[];
 	'initial-device-name'?: string;
+	provisioningKeyName?: string;
 }
 
 interface ArgsDef {
@@ -62,6 +63,7 @@ interface Answers {
 	version: string; // e.g. "2.32.0+rev1"
 	wifiSsid?: string;
 	wifiKey?: string;
+	provisioningKeyName?: string;
 }
 
 const deviceApiKeyDeprecationMsg = stripIndent`
@@ -184,6 +186,9 @@ export default class OsConfigureCmd extends Command {
 			description:
 				"paths to local files to place into the 'system-connections' directory",
 		}),
+		provisioningKeyName: flags.string({
+			description: 'custom key name assigned to generated provisioning api key',
+		}),
 		help: cf.help,
 	};
 
@@ -253,6 +258,8 @@ export default class OsConfigureCmd extends Command {
 		answers.version =
 			options.version ||
 			(await getOsVersionFromImage(params.image, deviceTypeManifest, devInit));
+
+		answers.provisioningKeyName = options.provisioningKeyName;
 
 		if (_.isEmpty(configJson)) {
 			if (device) {

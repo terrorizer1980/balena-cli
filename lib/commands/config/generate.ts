@@ -42,6 +42,7 @@ interface FlagsDef {
 	wifiSsid?: string;
 	wifiKey?: string;
 	appUpdatePollInterval?: string;
+	provisioningKeyName?: string;
 	help: void;
 }
 
@@ -127,6 +128,9 @@ export default class ConfigGenerateCmd extends Command {
 		appUpdatePollInterval: flags.string({
 			description:
 				'supervisor cloud polling interval in minutes (e.g. for variable updates)',
+		}),
+		provisioningKeyName: flags.string({
+			description: 'custom key name assigned to generated provisioning api key',
 		}),
 		help: cf.help,
 	};

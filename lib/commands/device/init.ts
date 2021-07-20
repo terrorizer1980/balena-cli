@@ -37,6 +37,7 @@ interface FlagsDef {
 	drive?: string;
 	config?: string;
 	help: void;
+	provisioningKeyName?: string;
 }
 
 export default class DeviceInitCmd extends Command {
@@ -84,6 +85,9 @@ export default class DeviceInitCmd extends Command {
 		drive: cf.drive,
 		config: flags.string({
 			description: 'path to the config JSON file, see `balena os build-config`',
+		}),
+		provisioningKeyName: flags.string({
+			description: 'custom key name assigned to generated provisioning api key',
 		}),
 		help: cf.help,
 	};
@@ -172,6 +176,10 @@ export default class DeviceInitCmd extends Command {
 			configureCommand.push('--config', options.config);
 		} else if (options.advanced) {
 			configureCommand.push('--advanced');
+		}
+
+		if (options.provisioningKeyName) {
+			configureCommand.push('provisioningKeyName', options.provisioningKeyName);
 		}
 		await runCommand(configureCommand);
 	}
