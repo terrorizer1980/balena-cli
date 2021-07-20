@@ -2495,6 +2495,10 @@ the wifi ssid to use (used only if --network is set to wifi)
 
 the wifi key to use (used only if --network is set to wifi)
 
+#### --provisioningKeyName PROVISIONINGKEYNAME
+
+custom key name assigned to generated provisioning api key
+
 ## config inject &#60;file&#62;
 
 Inject a config.json file to a mounted filesystem, e.g. the SD card of a
