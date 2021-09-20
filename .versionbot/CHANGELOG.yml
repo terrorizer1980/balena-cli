@@ -1,4 +1,17 @@
 - commits:
+    - subject: Add provisioning key name option to config generate options
+      hash: 60f6062c4f5a1cfbefb47d028c709ec4d0329d3c
+      body: ''
+      footer:
+        Change-Type: minor
+        change-type: minor
+        Signed-off-by: Nitish Agarwal 1592163+nitishagar@users.noreply.github.com
+        signed-off-by: Nitish Agarwal 1592163+nitishagar@users.noreply.github.com
+      author: Nitish Agarwal
+      nested: []
+  version: 12.49.0
+  date: 2021-09-20T09:31:33.856Z
+- commits:
     - subject: 'config inject: Remove requirement of being logged in'
       hash: 09a4e8db2d840f0b207afee7c5d99a47f967093d
       body: ''
