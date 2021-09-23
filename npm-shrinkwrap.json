@@ -1,6 +1,6 @@
 {
   "name": "balena-cli",
-  "version": "12.48.14",
+  "version": "12.49.0",
   "lockfileVersion": 1,
   "requires": true,
   "dependencies": {
@@ -3990,9 +3990,9 @@
       }
     },
     "balena-request": {
-      "version": "11.4.1",
-      "resolved": "https://registry.npmjs.org/balena-request/-/balena-request-11.4.1.tgz",
-      "integrity": "sha512-id7xS09QGY+Ppw0PVMgc/B30BGd2j9qt+xi2MYSugJCqOsO0iP5ERMXjjx9XQLmayKXpgSd/OCV8twl9+bpJ0g==",
+      "version": "11.4.2",
+      "resolved": "https://registry.npmjs.org/balena-request/-/balena-request-11.4.2.tgz",
+      "integrity": "sha512-J4SrFBUR4AB2Y3afsX2QAMZ7H/zjysXjOyEhEqvjNTsBfe5ReCmf17vzRQ8q2URCm00nUhQgfQtlJUq6miB1/g==",
       "requires": {
         "@balena/node-web-streams": "^0.2.3",
         "balena-errors": "^4.7.1",
@@ -4004,9 +4004,9 @@
       }
     },
     "balena-sdk": {
-      "version": "15.50.0",
-      "resolved": "https://registry.npmjs.org/balena-sdk/-/balena-sdk-15.50.0.tgz",
-      "integrity": "sha512-ZuEzPeRaspiL7EN8GhAkIpE9F3EQ7d5VNp0cTzMua3nxI6BddRID1jO2VzH3Eg6gALsMk2hlfh9tRKFzhPlCPw==",
+      "version": "15.51.1",
+      "resolved": "https://registry.npmjs.org/balena-sdk/-/balena-sdk-15.51.1.tgz",
+      "integrity": "sha512-EMCQruytqyvpfxvjq9Zd/wWnnOAIl/Wd1majqv6hqa+z104UUTjnRCQaUji4mo8YtrFLn7aUUZFFHIKiv/3sTg==",
       "requires": {
         "@balena/es-version": "^1.0.0",
         "@types/lodash": "^4.14.168",
@@ -4018,7 +4018,7 @@
         "balena-hup-action-utils": "~4.0.2",
         "balena-pine": "^12.4.0",
         "balena-register-device": "^7.1.0",
-        "balena-request": "^11.4.1",
+        "balena-request": "^11.4.2",
         "balena-semver": "^2.3.0",
         "balena-settings-client": "^4.0.6",
         "lodash": "^4.17.21",
