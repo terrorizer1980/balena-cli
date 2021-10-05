@@ -1,4 +1,18 @@
 - commits:
+    - subject: Update resin-multibuild to 4.13.0
+      hash: e9dea5f5aefc2839d72156f0d588cb56c1283b97
+      body: |
+        Update resin-multibuild from 4.12.2 to 4.13.0
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Robert Günzler <robertg@balena.io>
+        signed-off-by: Robert Günzler <robertg@balena.io>
+      author: Robert Günzler
+      nested: []
+  version: 12.50.3
+  date: 2021-10-05T17:05:44.839Z
+- commits:
     - subject: Error message when renaming a fleet now mentions the target name.
       hash: c493c33e3896784ee60c9d4ac79721ca6b96a778
       body: ''
