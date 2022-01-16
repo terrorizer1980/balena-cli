@@ -199,7 +199,7 @@
     "@sentry/node": "^6.13.2",
     "@types/fast-levenshtein": "0.0.1",
     "@types/update-notifier": "^4.1.1",
-    "@zeit/dockerignore": "0.0.3",
+    "@zeit/dockerignore": "0.0.5",
     "JSONStream": "^1.0.3",
     "balena-config-json": "^4.1.1",
     "balena-device-init": "^6.0.0",
