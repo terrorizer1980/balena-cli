@@ -255,7 +255,7 @@
     "net-keepalive": "^3.0.0",
     "node-cleanup": "^2.1.2",
     "node-unzip-2": "^0.2.8",
-    "oclif": "^1.18.1",
+    "oclif": "^2.3.0",
     "open": "^7.1.0",
     "partitioninfo": "^6.0.2",
     "patch-package": "^6.4.7",
